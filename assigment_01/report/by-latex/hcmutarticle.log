@@ -1,0 +1,14 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9) (preloaded format=pdftex 2012.5.13)  20 MAY 2012 22:03
+entering extended mode
+**C:/Users/LAPTOP68/Desktop/latex/hcmutarticle.cls
+(C:/Users/LAPTOP68/Desktop/latex/hcmutarticle.cls
+! Undefined control sequence.
+l.21 \NeedsTeXFormat
+                    {LaTeX2e}
+? 
+! Emergency stop.
+l.21 \NeedsTeXFormat
+                    {LaTeX2e}
+End of file on the terminal!
+
+!  ==> Fatal error occurred, no output PDF file produced!
