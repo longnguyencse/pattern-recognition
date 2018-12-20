@@ -82,23 +82,17 @@ Tài liệu tìm hiểu về giải thật PCA và phần mền WEKA.
 \end{abstract}
 
 \begin{keywords}
-algorithm, Min-coflicts algorithms, Min-Conflict Hill Climbing algorithms, Min-Conflict Random Walk algorithms ...
+giảm chiều dữ liệu, giải thuật PCA, WEKA
 \end{keywords} 
 
 
 \section{Giới thiệu}
 
-\textbf{Thuật giải xung đột tối thiểu} 
- là một giải thuật dùng khá phổ biến trong giải hệ ràng buộc CSP. Thuật giải xuang đột tối thiểu sẽ chọn ngẫu nhiên một biến nào đó dính líu tới một ràng buộc bị vi phạm rồi chọn một trị từ miền trị của biến này sao cho tối thiểu hóa số lượng những vi phạm ràng buộc có thể xảy ra. Vì vậy thuật giải xung đột tối thiểu thuần túy có thể không thoát ra được điểm tối ưu cục bộ. Thuật giải thường kết hợp với chiến lược random-walk. Với môt biến nào đó được chọn, chiến lược bước ra ngẫu nhiên lấy ngẫu nhiên một trị từ miền trị của biến này với xác suất p, và áp dụng theo Thuật giải xung đột tối thiểu với xác suất 1-p. Giá trị của thông số p có ảnh hưởng lên hiệu quả của Thuật giải xung đột tối thiểu, thuật giải này được gọi là Min-conflict Random Walk.
-
-\textbf{Thuật giải leo đồi (Hilll-climbing)}
- chính là nền tảng cơ sở của các ký thuật tìm kiếm cục bộ.Ở mỗi bước của việc tìm kiếm, chúng ta sẽ chọn một bước mà nó cải thiện giá trị hàm mục tiêu để thực hiện. Trong thuật giải leo đồi, chỉ những bước chuyển cải thiện được hàm chi phí hoặc không làm chi phí thay đổi thì mới đươc chọn vì vậy việc tìm kiếm sẽ liên tục bước lên vị trí cao hơn cho đến khi nó gặp điều kiện ngừng. Mặc dù đây là một giải thuật đơn giản nhưng lại hiệu quả  và rất mạnh trong việc giải quyết các bài toán CSP lớn.
-%$- $  Sao chép các đoạn văn bản từ bài viết của người khác?\\
-
-
-
- Trong tài liệu này chúng sẽ giới thiệu cho các bạn giải thuật Min-conflic Hill Climbing and Min-Conflict Random Walk.
-. Hy vọng tài liệu sẽ thực sự hữu ích cho các bạn.\\
+\textbf{Giảm chiều dữ liệu (Dimensionality Reduction)} 
+ là một trong kỹ thuật quan trọng của Học Máy (Machine Learning). Các feature vectors trong các bài toán thực tế có thể có số chiều rất lớn, tới vài nghìn. Ngoài ra, số lượng các điểm dữ liệu cũng thường rất lớn. Nếu thực hiện lưu trữ và tính toán trực tiếp trên dữ liệu có số chiều cao này thì sẽ gặp khó khăn cả về việc lưu trữ và tốc độ tính toán. Vì vậy, giảm chiều dữ liệu sẽ làm tăng tốc độ tính toán nên đây là bước quan trọng trong nhiều bà toán học máy (đây cũng được gọi là phương pháp nén dữ liệu).
+ 
+\textbf{Phân tích thành phần chính (Principal Component Analysis (PCA))}
+ là một thuật toán Dimensionality Reduction dựa trên một mô hình tuyến tính. Phương pháp này dựa trên quan sát rằng dữ liệu thường không phân bố ngẫu nhiên trong không gian mà thường phân bố gần các đường/mặt đặc biệt nào đó. PCA xem xét một trường hợp đặc biệt khi các mặt đặc biệt có dạng tuyến tính là các không gian con (subspace).
 
 \newpage
 
@@ -225,7 +219,7 @@ Xin chân thành cảm ơn.
 
 http://en.wikipedia.org\\
 http://globaledu.com.vn/Thong-Tin-Chi-Tiet/1881/1881\\
-http://library.williams.edu/citing/styles/acs.php\\
+https://machinelearningcoban.com/2017/06/15/pca/ \\
 
 %%%%%%%%%%%%%%
 
