@@ -1,0 +1,23 @@
+\contentsline {section}{\numberline {1}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u}{3}
+\contentsline {section}{\numberline {2}T\IeC {\'o}m t\IeC {\'\abreve }t n\IeC {\d \ocircumflex }i dung}{4}
+\contentsline {section}{\numberline {3}N\IeC {\d \ocircumflex }i dung t\IeC {\`\i }m hi\IeC {\h \ecircumflex }u}{4}
+\contentsline {subsection}{\numberline {3.1}Apache kafka}{4}
+\contentsline {subsubsection}{kafka's architecture}{4}
+\contentsline {subsubsection}{Quick setup and demo}{5}
+\contentsline {subsection}{\numberline {3.2}Apache Storm}{6}
+\contentsline {subsubsection}{What is Apache Storm ?\\}{6}
+\contentsline {subsubsection}{Feature of Apache Storm}{6}
+\contentsline {subsubsection}{Characteristic of Apache Storm\\}{6}
+\contentsline {subsubsection}{Quick setup and demo\\}{6}
+\contentsline {subsubsection}{Abstractions in Storm: spouts, bolts, and topologies\\}{7}
+\contentsline {subsubsection}{Core Storm Concepts}{7}
+\contentsline {subsubsection}{Spouts\\}{8}
+\contentsline {subsubsection}{Bolts\\}{9}
+\contentsline {subsubsection}{Processing Reliability\\}{10}
+\contentsline {subsubsection}{Stream Grouping\\}{10}
+\contentsline {subsubsection}{Topologies\\}{11}
+\contentsline {subsubsection}{Workers, Executors, and tasks\\}{11}
+\contentsline {subsubsection}{Parallelism\\}{12}
+\contentsline {section}{\numberline {4}Apache Storm integration with Apache Kafka}{12}
+\contentsline {section}{\numberline {5}K\IeC {\'\ecircumflex }t Lu\IeC {\d \acircumflex }n }{15}
+\contentsline {section}{\numberline {6}T\IeC {\`a}i li\IeC {\d \ecircumflex }u Tham Kh\IeC {\h a}o }{15}

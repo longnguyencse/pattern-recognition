@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  5 JAN 2019 16:20
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  5 JAN 2019 16:06
 entering extended mode
 **./baocao.tex
 (baocao.tex
@@ -755,37 +755,77 @@ s
 \f@nch@O@olf=\skip55
 \f@nch@O@orf=\skip56
 ))
+(C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\lipsum\lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count131
+)
+(C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+\lst@mode=\count132
+\lst@gtempboxa=\box56
+\lst@token=\toks28
+\lst@length=\count133
+\lst@currlwidth=\dimen144
+\lst@column=\count134
+\lst@pos=\count135
+\lst@lostspace=\dimen145
+\lst@width=\dimen146
+\lst@newlines=\count136
+\lst@lineno=\count137
+\lst@maxwidth=\dimen147
+
+(C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count138
+\lst@skipnumbers=\count139
+\lst@framebox=\box57
+)
+(C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
 (baocao.aux)
 \openout1 = `baocao.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 (C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count131
-\scratchdimen=\dimen144
-\scratchbox=\box56
-\nofMPsegments=\count132
-\nofMParguments=\count133
-\everyMPshowfont=\toks28
-\MPscratchCnt=\count134
-\MPscratchDim=\dimen145
-\MPnumerator=\count135
-\makeMPintoPDFobject=\count136
-\everyMPtoPDFconversion=\toks29
+\scratchcounter=\count140
+\scratchdimen=\dimen148
+\scratchbox=\box58
+\nofMPsegments=\count141
+\nofMParguments=\count142
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count143
+\MPscratchDim=\dimen149
+\MPnumerator=\count144
+\makeMPintoPDFobject=\count145
+\everyMPtoPDFconversion=\toks30
 ) ("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -868,69 +908,187 @@ G,.JBIG2,.JB2,.eps]
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<hcmut.pdf, id=1, pagebox=cropbox, 545.03625pt x 556.0775pt>
-File: hcmut.pdf Graphic file (type pdf)
-<use hcmut.pdf>
-Package pdftex.def Info: hcmut.pdf  used on input line 18. on input line 18.
-Package pdftex.def Info: Requested size: 109.00531pt x 111.21352pt on input lin
-e 18.
-LaTeX Font Info:    Try loading font information for U+msa on input line 30.
+\c@lstlisting=\count146
+<ikorn.jpg, id=1, 166.7028pt x 46.2528pt>
+File: ikorn.jpg Graphic file (type jpg)
+<use ikorn.jpg>
+Package pdftex.def Info: ikorn.jpg  used on input line 41. on input line 41.
+Package pdftex.def Info: Requested size: 166.70238pt x 46.25269pt on input line
+ 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 53.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 30.
+LaTeX Font Info:    Try loading font information for U+msb on input line 53.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
 
 
-Overfull \hbox (17.22166pt too wide) in paragraph at lines 39--47
+Overfull \hbox (17.22166pt too wide) in paragraph at lines 61--68
 [][] [] 
  []
 
 [1
 
-{C:/Users/nqlong/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./hcmut.pd
-f>] (baocao.toc)
+{C:/Users/nqlong/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./ikorn.jp
+g>] (baocao.toc)
 \tf@toc=\write3
 \openout3 = `baocao.toc'.
 
  [2
 
 ] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 125--128
+Underfull \hbox (badness 10000) in paragraph at lines 124--131
 
  []
 
+<image/kafka_diagram.png, id=19, 1358.07375pt x 1309.89375pt>
+File: image/kafka_diagram.png Graphic file (type png)
+<use image/kafka_diagram.png>
+Package pdftex.def Info: image/kafka_diagram.png  used on input line 148. on in
+put line 148.
+Package pdftex.def Info: Requested size: 271.60994pt x 261.9741pt on input line
+ 148.
+<image/kafka-architecture.png, id=21, 376.40625pt x 434.62375pt>
+File: image/kafka-architecture.png Graphic file (type png)
+<use image/kafka-architecture.png>
+Package pdftex.def Info: image/kafka-architecture.png  used on input line 165. 
+on input line 165.
+Package pdftex.def Info: Requested size: 301.1254pt x 347.69946pt on input line
+ 165.
 
 Package Fancyhdr Warning: \headheight is too small (12.0pt): 
  Make it at least 12.70894pt.
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-[4] (baocao.aux) ) 
+[4 <./image/kafka_diagram.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 202--205
+
+ []
+
+[5 <./image/kafka-architecture.png>]
+Overfull \hbox (48.61255pt too wide) in paragraph at lines 209--211
+[]\T5/cmr/m/n/10 Start the Zookeeper server by ex-e-cut-ing the com-mand: bin/z
+ookeeper-server-start.sh con-fig/-zookeeper.properties. 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 228--236
+
+ []
+
+
+Overfull \hbox (32.78087pt too wide) in paragraph at lines 267--269
+[]\T5/cmr/m/n/10 To be able to start and stop topolo-gies on a re-mote clus-ter
+, put the clus-ter in-for-ma-tion in  /.storm/storm.yaml. 
+ []
+
+[6]
+<image/abstract-storm.png, id=33, 645.40253pt x 306.67618pt>
+File: image/abstract-storm.png Graphic file (type png)
+<use image/abstract-storm.png>
+Package pdftex.def Info: image/abstract-storm.png  used on input line 297. on i
+nput line 297.
+Package pdftex.def Info: Requested size: 387.2445pt x 184.00711pt on input line
+ 297.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7 <./image/abstract-storm.png>]
+LaTeX Font Info:    Try loading font information for T5+cmtt on input line 379.
+
+
+(C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\vntex\t5cmtt.fd
+File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+) [8]
+[9]
+Overfull \hbox (1.49158pt too wide) in paragraph at lines 519--523
+\T5/cmr/m/n/10 Storm de-vel-op-ers spec-ify the field group-ing for each bolt u
+s-ing meth-ods on the Topol-o-gy-Builder.BoltGetter
+ []
+
+<image/topologyPNG.PNG, id=46, 505.13719pt x 350.05782pt>
+File: image/topologyPNG.PNG Graphic file (type png)
+<use image/topologyPNG.PNG>
+Package pdftex.def Info: image/topologyPNG.PNG  used on input line 537. on inpu
+t line 537.
+Package pdftex.def Info: Requested size: 151.54233pt x 105.01814pt on input lin
+e 537.
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 555--559
+
+ []
+
+<image/relationships-worker-processes-executors-tasks.png, id=50, 271.2534pt x 
+164.2938pt>
+File: image/relationships-worker-processes-executors-tasks.png Graphic file (ty
+pe png)
+<use image/relationships-worker-processes-executors-tasks.png>
+Package pdftex.def Info: image/relationships-worker-processes-executors-tasks.p
+ng  used on input line 561. on input line 561.
+Package pdftex.def Info: Requested size: 325.50244pt x 197.15155pt on input lin
+e 561.
+
+Underfull \hbox (badness 10000) in paragraph at lines 566--569
+
+ []
+
+[11 <./image/topologyPNG.PNG> <./image/relationships-worker-processes-executors
+-tasks.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 574--575
+
+ []
+
+<image/storm-kafka-1.png, id=56, 644.35121pt x 390.39308pt>
+File: image/storm-kafka-1.png Graphic file (type png)
+<use image/storm-kafka-1.png>
+Package pdftex.def Info: image/storm-kafka-1.png  used on input line 601. on in
+put line 601.
+Package pdftex.def Info: Requested size: 386.6137pt x 234.23764pt on input line
+ 601.
+<image/storm-kafka-2.png, id=57, 611.12526pt x 371.49316pt>
+File: image/storm-kafka-2.png Graphic file (type png)
+<use image/storm-kafka-2.png>
+Package pdftex.def Info: image/storm-kafka-2.png  used on input line 606. on in
+put line 606.
+Package pdftex.def Info: Requested size: 366.67798pt x 222.89761pt on input lin
+e 606.
+[12 <./image/storm-kafka-1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 609--610
+
+ []
+
+[13 <./image/storm-kafka-2.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+[15] (baocao.aux) ) 
 Here is how much of TeX's memory you used:
- 4331 strings out of 493312
- 54048 string characters out of 3138895
- 120485 words of memory out of 3000000
- 7787 multiletter control sequences out of 15000+200000
- 20720 words of font info for 51 fonts, out of 3000000 for 9000
+ 6474 strings out of 493312
+ 83061 string characters out of 3138895
+ 307699 words of memory out of 3000000
+ 9891 multiletter control sequences out of 15000+200000
+ 21031 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,10n,45p,710b,218s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr7.pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx1
-0.pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx12.
-pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx9.pfb
-><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr10.pfb><C
-:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/U
-sers/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr9.pfb>
-Output written on baocao.pdf (4 pages, 508292 bytes).
+ 41i,12n,45p,442b,1791s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx10.pfb><
+C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:
+/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Us
+ers/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users
+/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nq
+long/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/nqlong
+/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vntt9.pfb>
+Output written on baocao.pdf (15 pages, 835300 bytes).
 PDF statistics:
- 50 PDF objects out of 1000 (max. 8388607)
+ 102 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
