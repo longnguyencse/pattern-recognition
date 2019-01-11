@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  11 JAN 2019 18:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  11 JAN 2019 18:46
 entering extended mode
 **./baocao.tex
 (baocao.tex
@@ -974,12 +974,12 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
 <image/step1.png, id=32, 913.91437pt x 770.12718pt>
 File: image/step1.png Graphic file (type png)
 <use image/step1.png>
-Package pdftex.def Info: image/step1.png  used on input line 211. on input line
- 211.
+Package pdftex.def Info: image/step1.png  used on input line 213. on input line
+ 213.
 Package pdftex.def Info: Requested size: 456.95605pt x 385.06264pt on input lin
-e 211.
+e 213.
 
-Overfull \hbox (1.71194pt too wide) in paragraph at lines 211--212
+Overfull \hbox (1.71194pt too wide) in paragraph at lines 213--214
  [] 
  []
 
@@ -990,12 +990,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <image/pca_1.png, id=41, 765.6103pt x 465.99094pt>
 File: image/pca_1.png Graphic file (type png)
 <use image/pca_1.png>
-Package pdftex.def Info: image/pca_1.png  used on input line 217. on input line
- 217.
+Package pdftex.def Info: image/pca_1.png  used on input line 219. on input line
+ 219.
 Package pdftex.def Info: Requested size: 459.36972pt x 279.59671pt on input lin
-e 217.
+e 219.
 
-Overfull \hbox (4.12561pt too wide) in paragraph at lines 217--218
+Overfull \hbox (4.12561pt too wide) in paragraph at lines 219--220
  [] 
  []
 
@@ -1006,12 +1006,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 <image/result_1.png, id=46, 961.34157pt x 770.12718pt>
 File: image/result_1.png Graphic file (type png)
 <use image/result_1.png>
-Package pdftex.def Info: image/result_1.png  used on input line 221. on input l
-ine 221.
+Package pdftex.def Info: image/result_1.png  used on input line 223. on input l
+ine 223.
 Package pdftex.def Info: Requested size: 480.66962pt x 385.06264pt on input lin
-e 221.
+e 223.
 
-Overfull \hbox (25.4255pt too wide) in paragraph at lines 221--222
+Overfull \hbox (25.4255pt too wide) in paragraph at lines 223--224
  [] 
  []
 
@@ -1019,34 +1019,50 @@ Overfull \hbox (25.4255pt too wide) in paragraph at lines 221--222
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./image/pca_1.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 239--242
+<image/resultAll.png, id=52, 914.66719pt x 770.12718pt>
+File: image/resultAll.png Graphic file (type png)
+<use image/resultAll.png>
+Package pdftex.def Info: image/resultAll.png  used on input line 227. on input 
+line 227.
+Package pdftex.def Info: Requested size: 457.33247pt x 385.06264pt on input lin
+e 227.
+
+Overfull \hbox (2.08836pt too wide) in paragraph at lines 227--228
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8 <./image/result_1.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 245--248
 
  []
 
-[8 <./image/result_1.png>] (baocao.aux) ) 
+[9 <./image/resultAll.png>] (baocao.aux) ) 
 Here is how much of TeX's memory you used:
- 6132 strings out of 493312
- 78043 string characters out of 3138895
+ 6137 strings out of 493312
+ 78151 string characters out of 3138895
  172869 words of memory out of 3000000
- 9558 multiletter control sequences out of 15000+200000
+ 9562 multiletter control sequences out of 15000+200000
  21031 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,11n,45p,710b,1196s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
-ts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:
-/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx10.pfb><C:/U
-sers/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Use
-rs/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/
-nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/nql
-ong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nqlong
-/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/nqlong/App
-Data/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on baocao.pdf (8 pages, 852821 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publ
+ic/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
+nts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C
+:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx10.pfb><C:/
+Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Us
+ers/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users
+/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/nq
+long/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nqlon
+g/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/nqlong/Ap
+pData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vntt9.pfb>
+Output written on baocao.pdf (9 pages, 974492 bytes).
 PDF statistics:
- 94 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
