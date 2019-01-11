@@ -2,5 +2,5 @@
 \contentsline {section}{\numberline {2}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u c\IeC {\^o}ng c\IeC {\d u} Weka}{4}
 \contentsline {section}{\numberline {3}Gi\IeC {\'\ohorn }i thi\IeC {\d \ecircumflex }u ph\IeC {\uhorn }\IeC {\ohorn }ng ph\IeC {\'a}p PCA}{4}
 \contentsline {section}{\numberline {4}C\IeC {\'a}c b\IeC {\uhorn }\IeC {\'\ohorn }c r\IeC {\'u}t tr\IeC {\'\i }ch d\IeC {\~\uhorn } li\IeC {\d \ecircumflex }u \IeC {\dj }\IeC {\d \abreve }c tr\IeC {\uhorn }ng b\IeC {\`\abreve }ng ph\IeC {\uhorn }\IeC {\ohorn }ng ph\IeC {\'a}p PCA trong c\IeC {\^o}ng c\IeC {\d u} Weka}{4}
-\contentsline {section}{\numberline {5}K\IeC {\'\ecircumflex }t Lu\IeC {\d \acircumflex }n }{4}
-\contentsline {section}{\numberline {6}T\IeC {\`a}i li\IeC {\d \ecircumflex }u Tham Kh\IeC {\h a}o }{4}
+\contentsline {section}{\numberline {5}K\IeC {\'\ecircumflex }t Lu\IeC {\d \acircumflex }n }{8}
+\contentsline {section}{\numberline {6}T\IeC {\`a}i li\IeC {\d \ecircumflex }u Tham Kh\IeC {\h a}o }{8}
