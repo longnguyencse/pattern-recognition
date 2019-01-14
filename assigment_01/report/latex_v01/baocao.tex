@@ -32,6 +32,10 @@
 % create the header for this file
 \fancyhead[RO, LE]{\bf Bài toán khai báo tài liệu trích dẫn}
 
+%\begin{center}
+%	\includegraphics[scale=0.8]{image/figure.png}\\[0.5cm]
+%	Figure 2.7: Two different sets of coordinate axes.The second consists of a rotation %and translation of the first and was found by using PCA.
+%\end{center}
 
 \begin{document}
 \thispagestyle{empty}
@@ -156,23 +160,34 @@ Các tính năng chính của Weka (64 bit):
 
 \textbf{Mục tiêu của PCA } là xác định cơ sở có ý nghĩa nhất để thể hiện lại một tập dữ liệu
 
-
-Change of basis
-- Is there another basis which is a liner combination of the original basis, that best re-express our data set
-
-
 \begin{center}
-	\includegraphics[scale=0.5]{image/figure.png}
-	\text{Figure 2.7: Two different sets of coordinate axes.The second consists of a rotation and translation of the first and was found by using PCA.
-	}
+	\includegraphics[scale=0.8]{image/figure.png}\\[0.5cm]
+	Hình 2.7: Hình hai trục tọa độ khác nhau. Tọa độ thứ hai được quay và biến đổi từ tọa độ thứ nhất bằng cách sử dụng PCA
 \end{center}
+Biến đổi ma trận \\
+\[
+\begin{bmatrix}
+x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
+x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
+\hdotsfor{5} \\
+x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
+\end{bmatrix}
+=
+\begin{bmatrix}
+x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
+x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
+\vdots & \vdots & \vdots & \ddots & \vdots \\
+x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
+\end{bmatrix}
+\]
+
 \section{Các bước rút trích dữ liệu đặc trưng bằng phương pháp PCA trong công cụ Weka}
 
-Các thông số có thể cấu hình cho giải thuật PCS của Weka
-NAME
-weka.filters.unsupervised.attribute.PrincipalComponents
+Các thông số có thể cấu hình cho giải thuật PCS của Weka \\
 
-SYNOPSIS
+Tên class: weka.filters.unsupervised.attribute.PrincipalComponents
+
+Tóm tắt các thông số: \\
 Performs a principal components analysis and transformation of the data.
 Dimensionality reduction is accomplished by choosing enough eigenvectors to account for some percentage of the variance in the original data -- default 0.95 (95%).
 Based on code of the attribute selection scheme 'PrincipalComponents' by Mark Hall and Gabi Schmidberger.
@@ -232,43 +247,34 @@ doNotCheckCapabilities -- If set, the filter's capabilities are not checked befo
 	\end{lstlisting}
 	
 	\begin{center}
-		\includegraphics[scale=0.7]{image/data_weka.png}
+		\includegraphics[scale=0.4]{image/data_weka.png}\\[0.5cm]
+		Hình 3: Dữ liệu đầu vào cho giải thuật PCA của Weka
 	\end{center}
 \end{multicols}
 
-\[
-\begin{bmatrix}
-x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
-x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
-\hdotsfor{5} \\
-x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
-\end{bmatrix}
-=
-\begin{bmatrix}
-x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
-x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
-\end{bmatrix}
-\]
+
 
 Tiếp theo, ta thiết lập cấu hình cho phần mềm WEKA
 \begin{center}
-	\includegraphics[scale=0.5]{image/step1.png}
+	\includegraphics[scale=0.4]{image/step1.png}\\[0.5cm]
+	Hình 4: Lựa chọn giải thuật PCA 
 \end{center}
 % pca_1.png
 % result_1.png
-
+Tiếp theo sau đó, ta tải dữ liệu vào phần mềm Weka và áp dụng giải thuật PCA của Weka để tìm ra kết quả
 \begin{center}
-	\includegraphics[scale=0.6]{image/pca_1.png}
+	\includegraphics[scale=0.5]{image/pca_1.png}\\[0.5cm]
+	Hình 5: Kết quả load dữ liệu mẫu
 \end{center}
 
 \begin{center}
-	\includegraphics[scale=0.5]{image/result_1.png}
+	\includegraphics[scale=0.4]{image/result_1.png}\\[0.5cm]
+	Hình 6: Kết quả của việc áp dụng giải thuật PCA (1)
 \end{center}
 
 \begin{center}
-	\includegraphics[scale=0.5]{image/resultAll.png}
+	\includegraphics[scale=0.4]{image/resultAll.png}\\[0.5cm]
+	Hình 7: Kết quả của việc áp dụng giải thuật PCA (2)
 \end{center}
 
 %%%%%%%%%%%%%%
