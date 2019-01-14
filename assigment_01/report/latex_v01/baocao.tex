@@ -124,14 +124,35 @@ giảm chiều dữ liệu, giải thuật PCA, WEKA
 
 %%%%%%%%%%%%%%
 \section{Giới thiệu công cụ Weka}\label{survey}
-Weka (viết tắt của Waikato Environment for Knowledge Analysis) là một bộ phần mềm học máy được Đại học Waikato, New Zealand phát triển bằng Java. Weka là phần mềm tự do phát hành theo Giấy phép Công cộng GNU.
+\textbf{Weka} (viết tắt của Waikato Environment for Knowledge Analysis) là một bộ phần mềm học máy được Đại học Waikato, New Zealand phát triển bằng Java. Weka là phần mềm tự do phát hành theo Giấy phép Công cộng GNU.
+
+Để chạy chương trình, trước tiên người dùng cần tải Weka (64 bit) và tiến hành các thao tác cài đặt đơn giản. Sau khi hoàn tất quá trình cài đặt, Weka (64 bit) sẽ hiển thị bốn ứng dụng tích hợp cho phép người dùng truy cập, bao gồm "Explorer", "Experimenter", "KnowledgeFlow" và "Simple CLI".
+
+Các tính năng chính của Weka (64 bit):
+
+- Xem và phân tích tập tin dữ liệu ARFF.
+
+- Thực hiện phân nhóm và hồi quy dữ liệu .
+
+- Chỉnh sửa tùy thích hoặc lọc nội dung dữ liệu.
+
+- Thay đổi thuộc tính và ảo hóa kết quả.
+
+- Phân loại dữ liệu sẵn có theo quy tắc định trước.
+
+- Tiến hành phân tích tổng lợi ích/chi phí.
+
+- Lập biểu đồ dữ liệu.
+
+- Khai thác kế hoạch Machine Learning.
+
+- Lưu kết quả theo định dạng ARFF hoặc CSV hay cơ sở dữ liệu JDBC.
+
+- Phân tích, kiểm thử tập tin dữ liệu.
 
 %%%%%%%%%%%%%%
 \section{Giới thiệu phương pháp PCA}\label{dev}
-
-PCA là một thủ tục toán học biến đổi một số thuộc tính tương quan thành một số lượng nhỏ hơn các thuộc tính không tương quan được gọi là các thành phần chính.
-
-PCA là một phương pháp của Giảm chiều dữ liệu (Dimensionality reduction)
+\textbf{PCA} là một thủ tục toán học biến đổi một số thuộc tính tương quan thành một số lượng nhỏ hơn các thuộc tính không tương quan được gọi là các thành phần chính. PCA là một phương pháp của Giảm chiều dữ liệu (Dimensionality reduction)
 
 \textbf{Mục tiêu của PCA } là xác định cơ sở có ý nghĩa nhất để thể hiện lại một tập dữ liệu
 
@@ -146,6 +167,29 @@ Change of basis
 	}
 \end{center}
 \section{Các bước rút trích dữ liệu đặc trưng bằng phương pháp PCA trong công cụ Weka}
+
+Các thông số có thể cấu hình cho giải thuật PCS của Weka
+NAME
+weka.filters.unsupervised.attribute.PrincipalComponents
+
+SYNOPSIS
+Performs a principal components analysis and transformation of the data.
+Dimensionality reduction is accomplished by choosing enough eigenvectors to account for some percentage of the variance in the original data -- default 0.95 (95%).
+Based on code of the attribute selection scheme 'PrincipalComponents' by Mark Hall and Gabi Schmidberger.
+
+OPTIONS
+centerData -- Center (rather than standardize) the data. PCA will be computed from the covariance (rather than correlation) matrix
+
+debug -- If set to true, filter may output additional info to the console.
+
+varianceCovered -- Retain enough PC attributes to account for this proportion of variance.
+
+maximumAttributes -- The maximum number of PC attributes to retain.
+
+maximumAttributeNames -- The maximum number of attributes to include in transformed attribute names.
+
+doNotCheckCapabilities -- If set, the filter's capabilities are not checked before it is built. (Use with caution to reduce runtime.)
+
 
 \begin{multicols}{2}
 	[
