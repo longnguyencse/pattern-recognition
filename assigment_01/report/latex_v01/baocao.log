@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  14 JAN 2019 11:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6500 64-bit) (preloaded format=pdflatex 2017.11.24)  14 JAN 2019 13:49
 entering extended mode
 **./baocao.tex
 (baocao.tex
@@ -794,20 +794,20 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 (baocao.aux)
 \openout1 = `baocao.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T5/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 (C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -908,24 +908,24 @@ G,.JBIG2,.JB2,.eps]
 <hcmut.pdf, id=1, pagebox=cropbox, 545.03625pt x 556.0775pt>
 File: hcmut.pdf Graphic file (type pdf)
 <use hcmut.pdf>
-Package pdftex.def Info: hcmut.pdf  used on input line 48. on input line 48.
+Package pdftex.def Info: hcmut.pdf  used on input line 56. on input line 56.
 Package pdftex.def Info: Requested size: 109.00531pt x 111.21352pt on input lin
-e 48.
-LaTeX Font Info:    Try loading font information for U+msa on input line 60.
+e 56.
+LaTeX Font Info:    Try loading font information for U+msa on input line 68.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 60.
+LaTeX Font Info:    Try loading font information for U+msb on input line 68.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 73--74
 
  []
 
 
-Overfull \hbox (17.22166pt too wide) in paragraph at lines 69--77
+Overfull \hbox (17.22166pt too wide) in paragraph at lines 77--85
 [][] [] 
  []
 
@@ -942,17 +942,12 @@ f>] (baocao.toc)
 <image/figure.png, id=25, 499.8675pt x 192.72pt>
 File: image/figure.png Graphic file (type png)
 <use image/figure.png>
-Package pdftex.def Info: image/figure.png  used on input line 164. on input lin
-e 164.
+Package pdftex.def Info: image/figure.png  used on input line 172. on input lin
+e 172.
 Package pdftex.def Info: Requested size: 399.89453pt x 154.1762pt on input line
- 164.
+ 172.
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--187
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
@@ -969,14 +964,14 @@ LaTeX Font Info:    Try loading font information for T5+cmtt on input line 213.
 (C:\Users\nqlong\AppData\Roaming\MiKTeX\2.9\tex\latex\vntex\t5cmtt.fd
 File: t5cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-<image/data_weka.png, id=33, 149.8097pt x 350.81062pt>
+<image/data_weka.png, id=29, 149.8097pt x 350.81062pt>
 File: image/data_weka.png Graphic file (type png)
 <use image/data_weka.png>
 Package pdftex.def Info: image/data_weka.png  used on input line 250. on input 
 line 250.
 Package pdftex.def Info: Requested size: 59.9228pt x 140.32175pt on input line 
 250.
-<image/step1.png, id=35, 913.91437pt x 770.12718pt>
+<image/step1.png, id=31, 913.91437pt x 770.12718pt>
 File: image/step1.png Graphic file (type png)
 <use image/step1.png>
 Package pdftex.def Info: image/step1.png  used on input line 259. on input line
@@ -984,17 +979,17 @@ Package pdftex.def Info: image/step1.png  used on input line 259. on input line
 Package pdftex.def Info: Requested size: 365.55927pt x 308.04541pt on input lin
 e 259.
 
-Underfull \vbox (badness 4291) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5 <./image/data_weka.png>]
-<image/pca_1.png, id=41, 765.6103pt x 465.99094pt>
+<image/pca_1.png, id=37, 765.6103pt x 465.99094pt>
 File: image/pca_1.png Graphic file (type png)
 <use image/pca_1.png>
 Package pdftex.def Info: image/pca_1.png  used on input line 266. on input line
  266.
 Package pdftex.def Info: Requested size: 382.80421pt x 232.99489pt on input lin
 e 266.
-<image/result_1.png, id=42, 961.34157pt x 770.12718pt>
+<image/result_1.png, id=38, 961.34157pt x 770.12718pt>
 File: image/result_1.png Graphic file (type png)
 <use image/result_1.png>
 Package pdftex.def Info: image/result_1.png  used on input line 271. on input l
@@ -1005,7 +1000,7 @@ e 271.
 Underfull \vbox (badness 6252) has occurred while \output is active []
 
  [6 <./image/step1.png> <./image/pca_1.png>]
-<image/resultAll.png, id=48, 914.66719pt x 770.12718pt>
+<image/resultAll.png, id=44, 914.66719pt x 770.12718pt>
 File: image/resultAll.png Graphic file (type png)
 <use image/resultAll.png>
 Package pdftex.def Info: image/resultAll.png  used on input line 276. on input 
@@ -1025,22 +1020,18 @@ Here is how much of TeX's memory you used:
  9562 multiletter control sequences out of 15000+200000
  21031 words of font info for 52 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 41i,12n,45p,710b,1194s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,12n,45p,710b,1200s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/nqlong/AppData/R
-oaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx10.pfb><C:/Users/nqlong/AppData/Roa
-ming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx12.pfb><C:/Users/nqlong/AppData/Roami
-ng/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx9.pfb><C:/Users/nqlong/AppData/Roaming/
-MiKTeX/2.9/fonts/type1/vntex/vnr/vnr10.pfb><C:/Users/nqlong/AppData/Roaming/MiK
-TeX/2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX
-/2.9/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9
-/fonts/type1/vntex/vnr/vntt9.pfb>
-Output written on baocao.pdf (8 pages, 977355 bytes).
+mr7.pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx1
+0.pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx12.
+pfb><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnbx9.pfb
+><C:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr10.pfb><C
+:/Users/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr17.pfb><C:/U
+sers/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vnr9.pfb><C:/Users
+/nqlong/AppData/Roaming/MiKTeX/2.9/fonts/type1/vntex/vnr/vntt9.pfb>
+Output written on baocao.pdf (8 pages, 945114 bytes).
 PDF statistics:
- 96 PDF objects out of 1000 (max. 8388607)
+ 80 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

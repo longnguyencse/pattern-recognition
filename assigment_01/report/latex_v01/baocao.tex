@@ -37,6 +37,14 @@
 %	Figure 2.7: Two different sets of coordinate axes.The second consists of a rotation %and translation of the first and was found by using PCA.
 %\end{center}
 
+%\begin{itemize}
+%	\item One entry in the list
+%	\item Another entry in the list
+%\end{itemize}
+%\begin{enumerate}
+%	\item The labels consists of sequential numbers.
+%	\item The numbers starts at 1 with every call to the enumerate environment.
+%\end{enumerate}
 \begin{document}
 \thispagestyle{empty}
 \begin{center}
@@ -164,48 +172,40 @@ Các tính năng chính của Weka (64 bit):
 	\includegraphics[scale=0.8]{image/figure.png}\\[0.5cm]
 	Hình 2.7: Hình hai trục tọa độ khác nhau. Tọa độ thứ hai được quay và biến đổi từ tọa độ thứ nhất bằng cách sử dụng PCA
 \end{center}
-Biến đổi ma trận \\
-\[
-\begin{bmatrix}
-x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
-x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
-\hdotsfor{5} \\
-x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
-\end{bmatrix}
-=
-\begin{bmatrix}
-x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
-x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
-\vdots & \vdots & \vdots & \ddots & \vdots \\
-x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
-\end{bmatrix}
-\]
+%Biến đổi ma trận \\
+%\[
+%\begin{bmatrix}
+%x_{11}       & x_{12} & x_{13} & \dots & x_{1n} \\
+%x_{21}       & x_{22} & x_{23} & \dots & x_{2n} \\
+%\hdotsfor{5} \\
+%x_{d1}       & x_{d2} & x_{d3} & \dots & x_{dn}
+%\end{bmatrix}
+%=
+%\begin{bmatrix}
+%x_{11} & x_{12} & x_{13} & \dots  & x_{1n} \\
+%x_{21} & x_{22} & x_{23} & \dots  & x_{2n} \\
+%\vdots & \vdots & \vdots & \ddots & \vdots \\
+%x_{d1} & x_{d2} & x_{d3} & \dots  & x_{dn}
+%\end{bmatrix}
+%\]
 
 \section{Các bước rút trích dữ liệu đặc trưng bằng phương pháp PCA trong công cụ Weka}
 
 Các thông số có thể cấu hình cho giải thuật PCS của Weka \\
 
-Tên class: weka.filters.unsupervised.attribute.PrincipalComponents
+Tên class: weka.filters.unsupervised.attribute.PrincipalComponents.\\
+Chương trình thực hiện phân tích thành phần chính và chuyển đổi dữ liệu.
+Suy giảm số chiều được thực hiện bằng cách chọn đủ các hàm riêng để chiếm một số phần trăm phương sai trong dữ liệu gốc - mặc định giá trị này là 0.95 (95%)
+Chương trình dựa vào code lựa chọn thuộc tính 'PrincipalComponents' của hai tác giả  Mark Hall và Gabi Schmidberger.
 
-Tóm tắt các thông số: \\
-Performs a principal components analysis and transformation of the data.
-Dimensionality reduction is accomplished by choosing enough eigenvectors to account for some percentage of the variance in the original data -- default 0.95 (95%).
-Based on code of the attribute selection scheme 'PrincipalComponents' by Mark Hall and Gabi Schmidberger.
-
-OPTIONS
-centerData -- Center (rather than standardize) the data. PCA will be computed from the covariance (rather than correlation) matrix
-
-debug -- If set to true, filter may output additional info to the console.
-
-varianceCovered -- Retain enough PC attributes to account for this proportion of variance.
-
-maximumAttributes -- The maximum number of PC attributes to retain.
-
-maximumAttributeNames -- The maximum number of attributes to include in transformed attribute names.
-
-doNotCheckCapabilities -- If set, the filter's capabilities are not checked before it is built. (Use with caution to reduce runtime.)
-
-
+\begin{enumerate}
+	\item centerData -- Tìm điểm trung tâm của dữ liệu (thay vì chuẩn hóa). PCA sẽ được tính toán từ ma trận hiệp phương sai (chứ không phải từ khoảng cách tương quan)
+	\item debug -- Nếu được đặt thành true, bộ lọc có thể xuất thông tin bổ sung cho console
+	\item varianceConvered -- Giữ lại đủ các thuộc tính PC dể chiếm tỉ lệ phương sai này
+	\item maximumAttribution -- Số lượng thuộc tính PC tối đa được giữ lại
+	\item maximumAttributeNames  -- Số lượng thuộc tính tối đa bao giồn trong tên thuộc tính được chuyển đổi
+	\item doNotCheckCapabilities  -- Nếu được đặt giá trị, khả năng của bộ lọc sẽ không được kiểm tra trước khi nó được xây dựng. (Sử dụng thận trọng để giảm thời gian chạy)
+\end{enumerate}
 \begin{multicols}{2}
 	[
 	Dữ liệu đầu vào cho chương trình WEKA
